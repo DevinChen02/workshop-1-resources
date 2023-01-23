@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+body {
+	background-color: #bee5f0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img.indexpic {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    width: auto;
+}
+  
+.topnav {
+  background-color: #182B49;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #FFCD00;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #00629B;
+  color: white;
+}
+
+a {
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+
+
+
+
+
+
+p.companies {
+	text-align: center;
+	font-family: 'Covered By Your Grace', cursive;
+	color: #182B49;
+	font-size: 40px;
+}
+
+ul.companies {
+	text-align: center;
+}
+
+/*  In-line keeps the images on one line and 
+inline-block keeps both images and captions on one line*/
+
+li {
+  display: inline-block;
+}
+
+img.companies {
+	height: 190px;
+	width: 190px;
+}
+
+figcaption {
+	text-align: center;
+	color: #182B49;
+	font-family:'Covered By Your Grace', cursive;
+	font-size: 60px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+a {
+	opacity: 1;
+	transition: .5s ease;
+}
+
+a:hover {
+	opacity: 0.3;
+}
+
+
+
+
+
+#container {
+	height: 200px;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.box1, .box2 {
+	width: 300px;
+	height: 125px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+
+.stretch {
+	width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+
+
+img.icons {
+	display: inline-block;
+}
+
+div.nav3 {
+	text-align: center;
+}
+
+.socialmedia {
+	padding: 15px;
+}
+
